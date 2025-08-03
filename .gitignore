@@ -4,7 +4,7 @@ __pycache__
 notebooks
 results
 *.ipynb_checkpoints
+.pytest_cache
 eval_results
-tests
 .DS_Store
 gradio.sh
