@@ -149,8 +149,15 @@ You can replace the variables in the script with your own before running.
 See [TRAIN](TRAIN.md) for more details.
 
 ### Eval
-We provide the scripts for evaluating VLM, T2I and Editing benchmarks. 
+We provide the scripts for evaluating VLM, T2I and Editing benchmarks.
 Please See [EVAL](EVAL.md) for more details.
+
+### Tests
+Run the unit tests with [pytest](https://docs.pytest.org/):
+
+```bash
+pytest
+```
 
 
 ## 📊 Benchmarks
