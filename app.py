@@ -288,7 +288,7 @@ with gr.Blocks() as demo:
                 with thinking_params:
                     with gr.Row():
                         do_sample = gr.Checkbox(label="Sampling", value=False, info="Enable sampling for text generation")
-                        max_think_token_n = gr.Slider(minimum=64, maximum=4006, value=1024, step=64, interactive=True,
+                        max_think_token_n = gr.Slider(minimum=64, maximum=4096, value=1024, step=64, interactive=True,
                                                     label="Max Think Tokens", info="Maximum number of tokens for thinking")
                         text_temperature = gr.Slider(minimum=0.1, maximum=1.0, value=0.3, step=0.1, interactive=True,
                                                   label="Temperature", info="Controls randomness in text generation")
@@ -382,7 +382,7 @@ with gr.Blocks() as demo:
                 with edit_thinking_params:
                     with gr.Row():
                         edit_do_sample = gr.Checkbox(label="Sampling", value=False, info="Enable sampling for text generation")
-                        edit_max_think_token_n = gr.Slider(minimum=64, maximum=4006, value=1024, step=64, interactive=True,
+                        edit_max_think_token_n = gr.Slider(minimum=64, maximum=4096, value=1024, step=64, interactive=True,
                                                          label="Max Think Tokens", info="Maximum number of tokens for thinking")
                         edit_text_temperature = gr.Slider(minimum=0.1, maximum=1.0, value=0.3, step=0.1, interactive=True,
                                                         label="Temperature", info="Controls randomness in text generation")
