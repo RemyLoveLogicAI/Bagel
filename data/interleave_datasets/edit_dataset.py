@@ -34,7 +34,7 @@ class UnifiedEditIterableDataset(InterleavedBaseIterableDataset, ParquetStandard
             need_vit=True, 
         )
 
-        if end_idx - start_idx > 1 and random.random() < 0.5: # concat multiple insturction
+        if end_idx - start_idx > 1 and random.random() < 0.5: # concat multiple instructions
             if end_idx == image_num - 1:
                 end_idx -= 1
 
